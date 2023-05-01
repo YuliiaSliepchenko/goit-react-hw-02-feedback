@@ -1,5 +1,4 @@
 import { Component } from 'react';
-import PropTypes from 'prop-types';
 import {FeedbackOptions} from '../feedbackOptions/FeedbackOptions';
 import {Statistics} from '../statistics/Statistics.jsx';
 import {Section} from '../section/Section';
@@ -30,11 +29,3 @@ export class App extends Component{
   );
 };}
  
-Statistics.propTypes = {
-  good: PropTypes.number,
-  neutral: PropTypes.number,
-  bad: PropTypes.number,
-  options: PropTypes.array,
-  state: PropTypes.object,
-  onClick: PropTypes.bool,
-}
