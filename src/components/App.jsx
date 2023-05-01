@@ -14,6 +14,7 @@ export class App extends Component{
     bad: 0
   }; 
   
+  
   handleClick = (value) => {
     this.setState(prevState => ({[value]:prevState[value] + 1})) 
   }
