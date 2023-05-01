@@ -1,9 +1,9 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
-import {FeedbackOptions} from './components/feedbackOptions/FeedbackOptions';
-import {Statistics} from './components/statistics/Statistics.jsx';
-import {Section} from './components/section/Section';
-import s from './components/app/App.module.css';
+import {FeedbackOptions} from '../feedbackOptions/FeedbackOptions';
+import {Statistics} from '../statistics/Statistics.jsx';
+import {Section} from '../section/Section';
+import s from './App.module.css';
 
 
 const feedBackStatus = ['good', 'neutral','bad'];
