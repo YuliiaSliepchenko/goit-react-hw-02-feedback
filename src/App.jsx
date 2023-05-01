@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import {FeedbackOptions} from './components/feedbackOptions/FeedbackOptions';
 import {Statistics} from './components/statistics/Statistics.jsx';
 import {Section} from './components/section/Section';
+import s from './components/app/App.module.css';
 
 
 const feedBackStatus = ['good', 'neutral','bad'];
@@ -18,7 +19,7 @@ export class App extends Component{
   }
   render() { 
     return (
-    <div>
+    <div className={s.conteiner}>
       <Section title="Please leave feedback">
     <FeedbackOptions options={feedBackStatus}onClick={this.handleClick}/>
     </Section>
