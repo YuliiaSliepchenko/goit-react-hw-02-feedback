@@ -13,9 +13,7 @@ export const FeedbackOptions = ({options,onClick}) => {
 
 
 FeedbackOptions.propTypes = {
-    options: PropTypes.arrayOf(
-        PropTypes.shape({
-            feedBackStatus:PropTypes.string.isRequired,})),
+     options: PropTypes.arrayOf(PropTypes.string).isRequired,
     onClick: PropTypes.func.isRequired,
 }
 
